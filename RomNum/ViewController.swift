@@ -11,14 +11,36 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var topLabel: UILabel!
+    @IBOutlet weak var botLabel: UILabel!
+    
     var labelVal: Int! = 0
+    var convert: Convert?
+    
+    let romans = [("M",  1000),
+                  ("CM", 900),
+                  ("D",  500),
+                  ("CD", 400),
+                  ("C",  100),
+                  ("XC", 90),
+                  ("L",  50),
+                  ("XL", 40),
+                  ("X",  10),
+                  ("IX", 9),
+                  ("V",  5),
+                  ("IV", 4),
+                  ("I",  1)]
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         topLabel.text = ""
-        
+        botLabel.text = ""
     }
+    
+    @IBAction func equalsButtonPressed(sender: AnyObject) {
+        toRN(labelVal)
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -28,9 +50,9 @@ class ViewController: UIViewController {
     
     @IBAction func oneButtonPressed(sender: AnyObject) {
         if let txt = topLabel?.text {
-            topLabel?.text = txt + "1"
-            labelVal = Int(topLabel.text!)
-            print(labelVal)
+                topLabel?.text = txt + "1"
+                labelVal = Int(topLabel.text!)
+                print(labelVal)
         }
     }
     
@@ -107,6 +129,56 @@ class ViewController: UIViewController {
     }
     
 
+    
+    
+
+    
+}
+
+extension ViewController {
+    func toRN(num: Int) -> String {
+        guard num > 0 else {
+            return ""
+        }
+        var remainder = num
+        var output = ""
+        
+        for (romanChar, numVal) in romans {
+            let count = remainder / numVal
+            
+            if count == 0 { continue }
+            
+            for _ in 1...count {
+                output += romanChar
+                remainder -= numVal
+            }
+        }
+        
+        botLabel.text = output
+        return output
+        
+    }
+    
+    func toDecimal(var roman: String) -> Int? { // using var in Swift 2.2, will have to be replaced for Swift 3
+        guard roman != "" else {
+            return nil
+        }
+        
+        var num = 0
+        
+        for (letter, numVal) in romans {
+            while roman.hasPrefix(letter) {
+                let first = roman.startIndex
+                let count = letter.characters.count
+                roman.removeRange(first ..< first.advancedBy(count)) // open range operator
+                
+                num = num + numVal
+            }
+        }
+        
+        botLabel.text = String(num)
+        return num
+    }
     
 }
 
