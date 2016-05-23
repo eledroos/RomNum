@@ -12,9 +12,15 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var topLabel: UILabel!
     @IBOutlet weak var botLabel: UILabel!
+    @IBOutlet weak var oneToNine: UIStackView!
+    @IBOutlet weak var zeroClear: UIStackView!
+    @IBOutlet weak var cToV: UIStackView!
+    @IBOutlet weak var xClear: UIStackView!
+    var state: Bool = false // Changes to true when we switch
+    
+    
     
     var labelVal: Int! = 0
-    var convert: Convert?
     
     let romans = [("M",  1000),
                   ("CM", 900),
@@ -32,27 +38,71 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
         topLabel.text = ""
         botLabel.text = ""
+        cToV.hidden = true
+        xClear.hidden = true
     }
-    
-    @IBAction func equalsButtonPressed(sender: AnyObject) {
-        toRN(labelVal)
-    }
-    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func equalsButtonPressed(sender: AnyObject) { // Add code to tell which state we're in
+        toRN(labelVal)
+    }
+    
+    @IBAction func clearButtonPressed(sender: AnyObject) {
+        topLabel.text = ""
+        botLabel.text = ""
+        labelVal = 0
+    }
 
     
+    @IBAction func switchButtonPressed(sender: AnyObject) {
+        if state == false {
+            state == true
+        } else {
+            state == false
+        }
+        self.topLabel.fadeOut()
+        self.botLabel.fadeOut()
+        self.oneToNine.fadeOut()
+        self.zeroClear.fadeOut()
+        self.cToV.fadeOut()
+        self.xClear.fadeOut()
+        cToV.hidden = false
+        xClear.hidden = false
+        topLabel.text = ""
+        botLabel.text = ""
+        self.topLabel.fadeIn()
+        self.botLabel.fadeIn()
+        self.cToV.fadeIn()
+        self.xClear.fadeIn()
+    }
+    
+    
+    
+    
+    // MARK: - Naviation Methods
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let backItem = UIBarButtonItem()
+        backItem.title = ""
+        navigationItem.backBarButtonItem = backItem
+        
+        
+    }
+    
+}
+
+extension ViewController { // 0-9 buttons
     @IBAction func oneButtonPressed(sender: AnyObject) {
         if let txt = topLabel?.text {
-                topLabel?.text = txt + "1"
-                labelVal = Int(topLabel.text!)
-                print(labelVal)
+            topLabel?.text = txt + "1"
+            labelVal = Int(topLabel.text!)
+            print(labelVal)
         }
     }
     
@@ -87,7 +137,7 @@ class ViewController: UIViewController {
             print(labelVal)
         }
     }
-
+    
     @IBAction func sixButtonPressed(sender: AnyObject) {
         if let txt = topLabel?.text {
             topLabel?.text = txt + "6"
@@ -127,12 +177,6 @@ class ViewController: UIViewController {
             print(labelVal)
         }
     }
-    
-
-    
-    
-
-    
 }
 
 extension ViewController {
