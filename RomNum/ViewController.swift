@@ -63,6 +63,7 @@ class ViewController: UIViewController {
 
     
     @IBAction func switchButtonPressed(sender: AnyObject) {
+        labelVal = 0
         if state == false {
             state = !false
             self.topLabel.fadeOut()
@@ -85,8 +86,8 @@ class ViewController: UIViewController {
             self.botLabel.fadeOut()
             self.cToV.fadeOut()
             self.xClear.fadeOut()
-            cToV.hidden = true
-            xClear.hidden = true
+            //cToV.hidden = true
+            //xClear.hidden = true
             topLabel.text = ""
             botLabel.text = ""
             self.topLabel.fadeIn()
@@ -110,7 +111,8 @@ class ViewController: UIViewController {
     
 }
 
-extension ViewController { // 0-9 buttons
+//MARK: 0-9 buttons
+extension ViewController {
     @IBAction func oneButtonPressed(sender: AnyObject) {
         if let txt = topLabel?.text {
             topLabel?.text = txt + "1"
@@ -192,7 +194,8 @@ extension ViewController { // 0-9 buttons
     }
 }
 
-extension ViewController { // Roman Numeral Buttons
+//MARK: Roman Numeral Buttons
+extension ViewController {
     @IBAction func cButtonPressed(sender: AnyObject) {
         if let txt = topLabel?.text {
             topLabel?.text = txt + "C"
@@ -237,6 +240,7 @@ extension ViewController { // Roman Numeral Buttons
     
 }
 
+//MARK: Conversion Methods
 extension ViewController {
     func toRN(num: Int) -> String {
         guard num > 0 else {
