@@ -105,8 +105,6 @@ class ViewController: UIViewController {
         let backItem = UIBarButtonItem()
         backItem.title = ""
         navigationItem.backBarButtonItem = backItem
-        
-        
     }
     
 }
@@ -237,7 +235,6 @@ extension ViewController {
             topLabel?.text = txt + "X"
         }
     }
-    
 }
 
 //MARK: Conversion Methods
