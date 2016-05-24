@@ -251,7 +251,7 @@
                                 <color key="textColor" red="0.79216694831848145" green="0.77908295392990112" blue="0.84943109750747681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="blF-Oj-9LP">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="blF-Oj-9LP" userLabel="Equal Button">
                                 <rect key="frame" x="252" y="421" width="96" height="67"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="67" id="38c-vU-67k"/>
@@ -261,7 +261,7 @@
                                     <action selector="equalsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DCB-4Q-zbH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0m2-pW-Vpb">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0m2-pW-Vpb" userLabel="Change State Button">
                                 <rect key="frame" x="552" y="421" width="48" height="67"/>
                                 <state key="normal" image="RightButtonPurple"/>
                                 <connections>
@@ -303,7 +303,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.41399908065795898" green="0.21892201900482178" blue="0.45910567045211792" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="mhJ-Sm-lyF" firstAttribute="trailing" secondItem="0B4-BT-eCl" secondAttribute="trailing" id="09T-Kv-Oie"/>
                             <constraint firstItem="xXJ-y5-ADO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="1Gn-E5-bTx"/>
@@ -347,8 +347,13 @@
                     <connections>
                         <outlet property="botLabel" destination="mhJ-Sm-lyF" id="czA-KW-nNs"/>
                         <outlet property="cToV" destination="mzL-7L-jcm" id="skA-4W-72X"/>
+                        <outlet property="changeStateButton" destination="0m2-pW-Vpb" id="9xu-eE-KZ0"/>
+                        <outlet property="equalButton" destination="blF-Oj-9LP" id="mFZ-ts-b72"/>
+                        <outlet property="infoButton" destination="Aa1-ML-HJw" id="B1f-0R-FdB"/>
+                        <outlet property="lowerBackground" destination="xXJ-y5-ADO" id="96a-0Q-kFi"/>
                         <outlet property="oneToNine" destination="wZG-ZF-X3a" id="4Eo-FW-gLA"/>
                         <outlet property="topLabel" destination="0B4-BT-eCl" id="z5k-HR-DXC"/>
+                        <outlet property="upperBackground" destination="XYa-1l-dRv" id="EZ2-nu-Gw7"/>
                         <outlet property="xClear" destination="rvo-lv-PBj" id="VPd-B5-NRo"/>
                         <outlet property="zeroClear" destination="F6N-qw-eev" id="PPJ-vT-2fg"/>
                     </connections>

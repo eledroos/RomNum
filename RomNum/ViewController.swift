@@ -47,6 +47,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBOutlet weak var infoButton: UIButton!
+    @IBOutlet weak var equalButton: UIButton!
+    @IBOutlet weak var changeStateButton: UIButton!
+    @IBOutlet weak var upperBackground: UIImageView!
+    @IBOutlet weak var lowerBackground: UIImageView!
+    
+    
     @IBAction func equalsButtonPressed(sender: AnyObject) { // Add code to tell which state we're in
         if state == false {
             toRN(labelVal)
@@ -62,7 +69,7 @@ class ViewController: UIViewController {
     }
 
     
-    @IBAction func switchButtonPressed(sender: AnyObject) {
+    @IBAction func switchButtonPressed(sender: AnyObject) { // Apologies for how messy this is. I'm going to refine it.
         labelVal = 0
         if state == false {
             state = !false
@@ -72,10 +79,39 @@ class ViewController: UIViewController {
             self.zeroClear.fadeOut()
             self.cToV.fadeOut()
             self.xClear.fadeOut()
+
+            let buttonImages = [("EqualsButtonRed.PDF", equalButton),
+                          ("LeftButtonRed.PDF", infoButton),
+                          ("RightButtonRed.PDF", changeStateButton)]
+            
+            for (names, components) in buttonImages {
+                if let image = UIImage(named: names) {
+                    UIView.transitionWithView(components,
+                                              duration:1.5,
+                                              options: .TransitionCrossDissolve,
+                                              animations: { components.setImage(image, forState: .Normal) },
+                                              completion: nil)
+                }
+            }
+            
+            let backgroundImages = [("UpperBackgroundRed.PDF", upperBackground),
+                                    ("LowerBackgroundRed", lowerBackground)]
+            
+            for (names, components) in backgroundImages {
+                if let image = UIImage(named: names) {
+                    UIView.transitionWithView(components,
+                                              duration:1.5,
+                                              options: .TransitionCrossDissolve,
+                                              animations: { components.image = image },
+                                              completion: nil)
+                }
+            }
+
             cToV.hidden = false
             xClear.hidden = false
             topLabel.text = ""
             botLabel.text = ""
+
             self.topLabel.fadeIn()
             self.botLabel.fadeIn()
             self.cToV.fadeIn()
@@ -86,8 +122,34 @@ class ViewController: UIViewController {
             self.botLabel.fadeOut()
             self.cToV.fadeOut()
             self.xClear.fadeOut()
-            //cToV.hidden = true
-            //xClear.hidden = true
+            
+            let buttonImages = [("EqualsButtonPurple.PDF", equalButton),
+                                ("LeftButtonPurple.PDF", infoButton),
+                                ("RightButtonPurple.PDF", changeStateButton)]
+            
+            for (names, components) in buttonImages {
+                if let image = UIImage(named: names) {
+                    UIView.transitionWithView(components,
+                                              duration:3,
+                                              options: .TransitionCrossDissolve,
+                                              animations: { components.setImage(image, forState: .Normal) },
+                                              completion: nil)
+                }
+            }
+            
+            let backgroundImages = [("UpperBackgroundPurple.PDF", upperBackground),
+                                    ("LowerBackgroundPurple", lowerBackground)]
+            
+            for (names, components) in backgroundImages {
+                if let image = UIImage(named: names) {
+                    UIView.transitionWithView(components,
+                                              duration:3,
+                                              options: .TransitionCrossDissolve,
+                                              animations: { components.image = image },
+                                              completion: nil)
+                }
+            }
+            
             topLabel.text = ""
             botLabel.text = ""
             self.topLabel.fadeIn()
