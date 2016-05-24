@@ -519,18 +519,18 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Written and Designed by Nasser Eledroos. Released under the MIT License, 2016." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rz8-rr-jc5">
-                                                    <rect key="frame" x="108" y="31" width="385" height="120"/>
+                                                    <rect key="frame" x="8" y="33" width="584" height="120"/>
                                                     <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
                                                     <color key="textColor" red="0.65522760152816772" green="0.62062150239944458" blue="0.74379938840866089" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="rz8-rr-jc5" firstAttribute="top" secondItem="BIZ-wz-wqK" secondAttribute="bottom" constant="-12" id="BMZ-zj-hbk"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="rz8-rr-jc5" secondAttribute="bottom" constant="26" id="XZn-TY-bbd"/>
+                                                <constraint firstItem="rz8-rr-jc5" firstAttribute="top" secondItem="BIZ-wz-wqK" secondAttribute="bottom" constant="-10" id="BMZ-zj-hbk"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="rz8-rr-jc5" secondAttribute="bottom" constant="24" id="XZn-TY-bbd"/>
                                                 <constraint firstItem="BIZ-wz-wqK" firstAttribute="centerX" secondItem="sFj-QE-Sjo" secondAttribute="centerX" id="Xcg-07-c38"/>
                                                 <constraint firstItem="BIZ-wz-wqK" firstAttribute="top" secondItem="sFj-QE-Sjo" secondAttribute="topMargin" constant="14" id="hM2-YU-oH7"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="rz8-rr-jc5" secondAttribute="trailing" constant="99" id="hed-Lp-qhv"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="rz8-rr-jc5" secondAttribute="trailing" id="hed-Lp-qhv"/>
                                                 <constraint firstItem="BIZ-wz-wqK" firstAttribute="centerX" secondItem="rz8-rr-jc5" secondAttribute="centerX" id="qGA-Mz-xlL"/>
                                             </constraints>
                                         </tableViewCellContentView>
