@@ -17,9 +17,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var cToV: UIStackView!
     @IBOutlet weak var xClear: UIStackView!
     var state: Bool = false // Changes to true when we switch
-    
-    
-    
     var labelVal: Int! = 0
     
     let romans = [("M",  1000),
@@ -51,7 +48,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func equalsButtonPressed(sender: AnyObject) { // Add code to tell which state we're in
-        toRN(labelVal)
+        if state == false {
+            toRN(labelVal)
+        } else if state == true {
+            toDecimal(topLabel.text!)
+        }
     }
     
     @IBAction func clearButtonPressed(sender: AnyObject) {
@@ -63,24 +64,36 @@ class ViewController: UIViewController {
     
     @IBAction func switchButtonPressed(sender: AnyObject) {
         if state == false {
-            state == true
-        } else {
-            state == false
+            state = !false
+            self.topLabel.fadeOut()
+            self.botLabel.fadeOut()
+            self.oneToNine.fadeOut()
+            self.zeroClear.fadeOut()
+            self.cToV.fadeOut()
+            self.xClear.fadeOut()
+            cToV.hidden = false
+            xClear.hidden = false
+            topLabel.text = ""
+            botLabel.text = ""
+            self.topLabel.fadeIn()
+            self.botLabel.fadeIn()
+            self.cToV.fadeIn()
+            self.xClear.fadeIn()
+        } else if state == true {
+            state = !true
+            self.topLabel.fadeOut()
+            self.botLabel.fadeOut()
+            self.cToV.fadeOut()
+            self.xClear.fadeOut()
+            cToV.hidden = true
+            xClear.hidden = true
+            topLabel.text = ""
+            botLabel.text = ""
+            self.topLabel.fadeIn()
+            self.botLabel.fadeIn()
+            self.oneToNine.fadeIn()
+            self.zeroClear.fadeIn()
         }
-        self.topLabel.fadeOut()
-        self.botLabel.fadeOut()
-        self.oneToNine.fadeOut()
-        self.zeroClear.fadeOut()
-        self.cToV.fadeOut()
-        self.xClear.fadeOut()
-        cToV.hidden = false
-        xClear.hidden = false
-        topLabel.text = ""
-        botLabel.text = ""
-        self.topLabel.fadeIn()
-        self.botLabel.fadeIn()
-        self.cToV.fadeIn()
-        self.xClear.fadeIn()
     }
     
     
@@ -177,6 +190,51 @@ extension ViewController { // 0-9 buttons
             print(labelVal)
         }
     }
+}
+
+extension ViewController { // Roman Numeral Buttons
+    @IBAction func cButtonPressed(sender: AnyObject) {
+        if let txt = topLabel?.text {
+            topLabel?.text = txt + "C"
+        }
+    }
+    
+    @IBAction func dButtonPressed(sender: AnyObject) {
+        if let txt = topLabel?.text {
+            topLabel?.text = txt + "D"
+        }
+    }
+    
+    @IBAction func iButtonPressed(sender: AnyObject) {
+        if let txt = topLabel?.text {
+            topLabel?.text = txt + "I"
+        }
+    }
+    
+    @IBAction func lButtonPressed(sender: AnyObject) {
+        if let txt = topLabel?.text {
+            topLabel?.text = txt + "L"
+        }
+    }
+    
+    @IBAction func mButtonPressed(sender: AnyObject) {
+        if let txt = topLabel?.text {
+            topLabel?.text = txt + "M"
+        }
+    }
+    
+    @IBAction func vButtonPressed(sender: AnyObject) {
+        if let txt = topLabel?.text {
+            topLabel?.text = txt + "V"
+        }
+    }
+    
+    @IBAction func xButtonPressed(sender: AnyObject) {
+        if let txt = topLabel?.text {
+            topLabel?.text = txt + "X"
+        }
+    }
+    
 }
 
 extension ViewController {
