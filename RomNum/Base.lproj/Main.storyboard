@@ -169,7 +169,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ud-wD-TvN" userLabel="C">
                                                 <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="32"/>
                                                 <state key="normal" title="C" backgroundImage="NumRectangleRed">
                                                     <color key="titleColor" red="0.79216694831848145" green="0.77908295392990112" blue="0.84943109750747681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -179,7 +179,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9D-kY-n7J">
                                                 <rect key="frame" x="90" y="0.0" width="67" height="67"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="32"/>
                                                 <state key="normal" title="D" backgroundImage="NumRectangleRed">
                                                     <color key="titleColor" red="0.79216694831848145" green="0.77908295392990112" blue="0.84943109750747681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -189,7 +189,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cyX-HA-jOB">
                                                 <rect key="frame" x="180" y="0.0" width="67" height="67"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="32"/>
                                                 <state key="normal" title="I" backgroundImage="NumRectangleRed">
                                                     <color key="titleColor" red="0.79216694831848145" green="0.77908295392990112" blue="0.84943109750747681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -204,7 +204,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j0p-vy-BRq">
                                                 <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="32"/>
                                                 <state key="normal" title="L" backgroundImage="NumRectangleRed">
                                                     <color key="titleColor" red="0.79216694831848145" green="0.77908295392990112" blue="0.84943109750747681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -214,7 +214,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="br5-VQ-Xin">
                                                 <rect key="frame" x="90" y="0.0" width="67" height="67"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="32"/>
                                                 <state key="normal" title="M" backgroundImage="NumRectangleRed">
                                                     <color key="titleColor" red="0.79216694831848145" green="0.77908295392990112" blue="0.84943109750747681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -224,7 +224,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wWX-s9-jbX">
                                                 <rect key="frame" x="180" y="0.0" width="67" height="67"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="32"/>
                                                 <state key="normal" title="V" backgroundImage="NumRectangleRed">
                                                     <color key="titleColor" red="0.79216694831848145" green="0.77908295392990112" blue="0.84943109750747681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -272,9 +272,7 @@
                                 <rect key="frame" x="0.0" y="421" width="48" height="67"/>
                                 <state key="normal" image="LeftButtonPurple"/>
                                 <connections>
-                                    <segue destination="Gtk-rv-zPs" kind="popoverPresentation" popoverAnchorView="Aa1-ML-HJw" id="qCH-Xs-Q28">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <segue destination="K5d-TX-4i7" kind="show" id="0e7-U0-U0b"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rvo-lv-PBj" userLabel="X Clear">
@@ -282,7 +280,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZMD-gm-to1">
                                         <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                        <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="32"/>
                                         <state key="normal" title="X" backgroundImage="NumRectangleRed">
                                             <color key="titleColor" red="0.79216694831848145" green="0.77908295392990112" blue="0.84943109750747681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -290,10 +288,9 @@
                                             <action selector="xButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YPo-K6-3x2"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OPa-hO-Apj">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OPa-hO-Apj">
                                         <rect key="frame" x="77" y="0.0" width="67" height="67"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                        <state key="normal" title="clr" backgroundImage="NumRectangleRed">
+                                        <state key="normal" image="deleteRed">
                                             <color key="titleColor" red="0.79216694831848145" green="0.77908295392990112" blue="0.84943109750747681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
@@ -301,6 +298,12 @@
                                         </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="OPa-hO-Apj" firstAttribute="leading" secondItem="ZMD-gm-to1" secondAttribute="trailing" constant="10" id="39m-Wb-qQ7"/>
+                                    <constraint firstAttribute="trailing" secondItem="OPa-hO-Apj" secondAttribute="trailing" id="4Gr-c7-AFc"/>
+                                    <constraint firstAttribute="bottom" secondItem="OPa-hO-Apj" secondAttribute="bottom" id="J1b-Zn-b90"/>
+                                    <constraint firstItem="OPa-hO-Apj" firstAttribute="top" secondItem="rvo-lv-PBj" secondAttribute="top" id="U6T-5G-b0I"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -362,23 +365,189 @@
             </objects>
             <point key="canvasLocation" x="1117" y="362"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Q5U-Zw-bGo">
+        <!--InfoVC-->
+        <scene sceneID="YJN-fd-mTJ">
             <objects>
-                <viewController id="Gtk-rv-zPs" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="eyQ-fY-MZ1"/>
-                        <viewControllerLayoutGuide type="bottom" id="bAI-Rc-AVN"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="fJP-eF-Fqg">
+                <tableViewController id="K5d-TX-4i7" customClass="InfoVC" customModule="RomNum" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="cXt-6H-XZ5">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OkC-pH-qhR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <color key="sectionIndexBackgroundColor" red="0.41171544790267944" green="0.37958303093910217" blue="0.57842564582824707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="sectionIndexTrackingBackgroundColor" red="0.41171544790267944" green="0.37958303093910217" blue="0.57842564582824707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <sections>
+                            <tableViewSection id="fbO-hZ-zr4">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="370" id="hgH-a5-fMI">
+                                        <rect key="frame" x="0.0" y="64" width="600" height="370"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hgH-a5-fMI" id="2c6-fk-wml">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="370"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You would not put more than one smaller number in front of a larger number to subtract. For example, IIV would not mean 3." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ix-zm-sXi">
+                                                    <rect key="frame" x="8" y="113" width="584" height="94"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="94" id="iOl-rF-FOd"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                                    <color key="textColor" red="0.95281749963760376" green="0.98021107912063599" blue="0.7379225492477417" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0hC-ws-ZkE">
+                                                    <rect key="frame" x="7" y="175" width="585" height="165"/>
+                                                    <string key="text">You must separate ones, tens, hundreds, and thousands as separate items. That means that 99 is XCIX, 90 + 9, but never should be written as IC. Similarly, 999 cannot be IM and 1999 cannot be MIM.</string>
+                                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                                    <color key="textColor" red="0.95281749963760376" green="0.98021107912063599" blue="0.7379225492477417" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0rN-mX-QQP">
+                                                    <rect key="frame" x="281.5" y="23" width="36" height="17"/>
+                                                    <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="17"/>
+                                                    <color key="textColor" red="0.95281749963760376" green="0.98021107912063599" blue="0.7379225492477417" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A smaller number in front of a larger number means subtraction, all else means addition. For example, IV means 4, VI means 6." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mai-X2-MU2">
+                                                    <rect key="frame" x="8" y="48" width="584" height="77"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="76.5" id="yTV-S3-hN2"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                                    <color key="textColor" red="0.95281749963760376" green="0.98021107912063599" blue="0.7379225492477417" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="mai-X2-MU2" firstAttribute="trailing" secondItem="9ix-zm-sXi" secondAttribute="trailing" id="7Fz-5b-Yzq"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="0hC-ws-ZkE" secondAttribute="bottom" constant="21.5" id="9Zd-qB-qJI"/>
+                                                <constraint firstItem="9ix-zm-sXi" firstAttribute="top" secondItem="mai-X2-MU2" secondAttribute="bottom" constant="-12" id="ABX-bC-p2h"/>
+                                                <constraint firstItem="mai-X2-MU2" firstAttribute="top" secondItem="2c6-fk-wml" secondAttribute="topMargin" constant="40" id="CVq-A6-wpR"/>
+                                                <constraint firstItem="0rN-mX-QQP" firstAttribute="centerX" secondItem="mai-X2-MU2" secondAttribute="centerX" id="D8K-g4-zfg"/>
+                                                <constraint firstItem="9ix-zm-sXi" firstAttribute="centerX" secondItem="0hC-ws-ZkE" secondAttribute="centerX" id="DKK-SY-NUt"/>
+                                                <constraint firstItem="mai-X2-MU2" firstAttribute="top" secondItem="0rN-mX-QQP" secondAttribute="bottom" constant="8" symbolic="YES" id="NBQ-ZE-EuG"/>
+                                                <constraint firstItem="9ix-zm-sXi" firstAttribute="trailing" secondItem="0hC-ws-ZkE" secondAttribute="trailing" id="duj-jy-Jg6"/>
+                                                <constraint firstItem="0hC-ws-ZkE" firstAttribute="top" secondItem="9ix-zm-sXi" secondAttribute="bottom" constant="-32" id="dvH-IA-IRT"/>
+                                                <constraint firstItem="mai-X2-MU2" firstAttribute="leading" secondItem="2c6-fk-wml" secondAttribute="leadingMargin" id="eQf-pg-6DN"/>
+                                                <constraint firstItem="mai-X2-MU2" firstAttribute="leading" secondItem="9ix-zm-sXi" secondAttribute="leading" id="q1g-bC-rf6"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="0hC-ws-ZkE" secondAttribute="trailing" id="wUZ-kW-7vv"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.6389656662940979" green="0.67913568019866943" blue="0.30072605609893799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="160" id="Uhk-vJ-uXl">
+                                        <rect key="frame" x="0.0" y="434" width="600" height="160"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Uhk-vJ-uXl" id="rBA-GH-JbL">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="160"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Decimal to Roman Numeral" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dkV-1b-DmS">
+                                                    <rect key="frame" x="175.5" y="22" width="249.5" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="MHJ-SX-In3"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="17"/>
+                                                    <color key="textColor" red="0.78311073780059814" green="0.67843419313430786" blue="0.77862322330474854" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Use the on screen keypad to enter the number you wish to convert from Decimal to Roman Numerals" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WoD-rQ-sFj">
+                                                    <rect key="frame" x="58" y="46" width="485" height="94"/>
+                                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                                    <color key="textColor" red="0.78311073780059814" green="0.67843419313430786" blue="0.77862322330474854" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="dkV-1b-DmS" firstAttribute="top" secondItem="rBA-GH-JbL" secondAttribute="topMargin" constant="14" id="AY3-LT-QYK"/>
+                                                <constraint firstItem="dkV-1b-DmS" firstAttribute="centerX" secondItem="rBA-GH-JbL" secondAttribute="centerX" id="XiV-gs-yUt"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="WoD-rQ-sFj" secondAttribute="bottom" constant="12" id="isq-I6-KT8"/>
+                                                <constraint firstItem="dkV-1b-DmS" firstAttribute="centerX" secondItem="WoD-rQ-sFj" secondAttribute="centerX" id="k5s-BS-N66"/>
+                                                <constraint firstItem="WoD-rQ-sFj" firstAttribute="top" secondItem="dkV-1b-DmS" secondAttribute="bottom" constant="3" id="w6v-J8-rIi"/>
+                                                <constraint firstItem="WoD-rQ-sFj" firstAttribute="leading" secondItem="rBA-GH-JbL" secondAttribute="leadingMargin" constant="50" id="wfS-wF-yHm"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.41399908065795898" green="0.21892201900482178" blue="0.45910567045211792" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="160" id="Nz2-9J-4Sd">
+                                        <rect key="frame" x="0.0" y="594" width="600" height="160"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Nz2-9J-4Sd" id="H7S-XF-alt">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="160"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Use the on screen keypad to enter your Roman Numerals, from largest to smallest number first." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ww-SM-EBm">
+                                                    <rect key="frame" x="46" y="48" width="509" height="97.5"/>
+                                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                                    <color key="textColor" red="0.93802005052566528" green="0.71589219570159912" blue="0.7554783821105957" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Roman Numeral to Decimal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MSW-9K-UsZ">
+                                                    <rect key="frame" x="175.5" y="26" width="249.5" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="0zs-mT-cSq"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="17"/>
+                                                    <color key="textColor" red="0.93802005052566528" green="0.71589219570159912" blue="0.7554783821105957" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="6ww-SM-EBm" secondAttribute="bottom" constant="6.5" id="7qN-4u-EgA"/>
+                                                <constraint firstItem="MSW-9K-UsZ" firstAttribute="top" secondItem="H7S-XF-alt" secondAttribute="topMargin" constant="18" id="MnL-Ag-na8"/>
+                                                <constraint firstItem="6ww-SM-EBm" firstAttribute="leading" secondItem="H7S-XF-alt" secondAttribute="leadingMargin" constant="38" id="dv7-WM-ZUs"/>
+                                                <constraint firstItem="MSW-9K-UsZ" firstAttribute="centerX" secondItem="6ww-SM-EBm" secondAttribute="centerX" id="lch-q1-EaU"/>
+                                                <constraint firstItem="6ww-SM-EBm" firstAttribute="top" secondItem="MSW-9K-UsZ" secondAttribute="bottom" constant="1" id="zsr-XX-9JH"/>
+                                                <constraint firstItem="MSW-9K-UsZ" firstAttribute="centerX" secondItem="H7S-XF-alt" secondAttribute="centerX" id="zuh-vK-mem"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.40858998894691467" green="0.081073381006717682" blue="0.13592368364334106" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="185" id="WVy-Ry-4Zo">
+                                        <rect key="frame" x="0.0" y="754" width="600" height="185"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WVy-Ry-4Zo" id="sFj-QE-Sjo">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="185"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BIZ-wz-wqK">
+                                                    <rect key="frame" x="272.5" y="22" width="56" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="qfg-zZ-c1F"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="17"/>
+                                                    <color key="textColor" red="0.65522760152816772" green="0.62062150239944458" blue="0.74379938840866089" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Written and Designed by Nasser Eledroos. Released under the MIT License, 2016." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rz8-rr-jc5">
+                                                    <rect key="frame" x="108" y="31" width="385" height="120"/>
+                                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                                    <color key="textColor" red="0.65522760152816772" green="0.62062150239944458" blue="0.74379938840866089" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="rz8-rr-jc5" firstAttribute="top" secondItem="BIZ-wz-wqK" secondAttribute="bottom" constant="-12" id="BMZ-zj-hbk"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="rz8-rr-jc5" secondAttribute="bottom" constant="26" id="XZn-TY-bbd"/>
+                                                <constraint firstItem="BIZ-wz-wqK" firstAttribute="centerX" secondItem="sFj-QE-Sjo" secondAttribute="centerX" id="Xcg-07-c38"/>
+                                                <constraint firstItem="BIZ-wz-wqK" firstAttribute="top" secondItem="sFj-QE-Sjo" secondAttribute="topMargin" constant="14" id="hM2-YU-oH7"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="rz8-rr-jc5" secondAttribute="trailing" constant="99" id="hed-Lp-qhv"/>
+                                                <constraint firstItem="BIZ-wz-wqK" firstAttribute="centerX" secondItem="rz8-rr-jc5" secondAttribute="centerX" id="qGA-Mz-xlL"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.41171544790267944" green="0.37958303093910217" blue="0.57842564582824707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="K5d-TX-4i7" id="HH7-F4-c2S"/>
+                            <outlet property="delegate" destination="K5d-TX-4i7" id="R7J-QQ-lMD"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YJo-8Z-gBY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1848" y="362"/>
+            <point key="canvasLocation" x="1783" y="362"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="RmY-tC-x5d">
@@ -388,6 +557,8 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Xo0-aw-e3I">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.41171544790267944" green="0.37958303093910217" blue="0.57842564582824707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -408,5 +579,6 @@
         <image name="RightButtonPurple" width="48" height="67"/>
         <image name="UpperBackgroundPurple" width="375" height="488"/>
         <image name="deletePurple" width="67" height="67"/>
+        <image name="deleteRed" width="67" height="67"/>
     </resources>
 </document>

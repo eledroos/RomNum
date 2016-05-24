@@ -41,6 +41,10 @@ class ViewController: UIViewController {
         cToV.hidden = true
         xClear.hidden = true
     }
+    
+    override func viewDidAppear(animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
