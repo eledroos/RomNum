@@ -1,10 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Xy0-cc-RA8">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="SourceSansPro-Bold.ttf">
+            <string>SourceSansPro-Bold</string>
+        </mutableArray>
+        <mutableArray key="SourceSansPro-Italic.ttf">
+            <string>SourceSansPro-It</string>
+        </mutableArray>
+        <mutableArray key="SourceSansPro-Regular.ttf">
+            <string>SourceSansPro-Regular</string>
+            <string>SourceSansPro-Regular</string>
+            <string>SourceSansPro-Regular</string>
+            <string>SourceSansPro-Regular</string>
+            <string>SourceSansPro-Regular</string>
+            <string>SourceSansPro-Regular</string>
+            <string>SourceSansPro-Regular</string>
+            <string>SourceSansPro-Regular</string>
+            <string>SourceSansPro-Regular</string>
+            <string>SourceSansPro-Regular</string>
+            <string>SourceSansPro-Regular</string>
+            <string>SourceSansPro-Regular</string>
+            <string>SourceSansPro-Regular</string>
+            <string>SourceSansPro-Regular</string>
+            <string>SourceSansPro-Regular</string>
+        </mutableArray>
+        <mutableArray key="SourceSansPro-Semibold.ttf">
+            <string>SourceSansPro-Semibold</string>
+            <string>SourceSansPro-Semibold</string>
+            <string>SourceSansPro-Semibold</string>
+        </mutableArray>
+        <mutableArray key="SourceSansPro-SemiboldItalic.ttf">
+            <string>SourceSansPro-SemiboldIt</string>
+            <string>SourceSansPro-SemiboldIt</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -35,7 +68,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Syq-pB-V0e">
                                                 <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
-                                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="26"/>
+                                                <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="40"/>
                                                 <state key="normal" title="1" backgroundImage="NumRectangle">
                                                     <color key="titleColor" red="0.79216694831848145" green="0.77908295392990112" blue="0.84943109750747681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -45,7 +78,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWX-B0-i89">
                                                 <rect key="frame" x="90" y="0.0" width="67" height="67"/>
-                                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="26"/>
+                                                <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="40"/>
                                                 <state key="normal" title="2" backgroundImage="NumRectangle">
                                                     <color key="titleColor" red="0.79216694831848145" green="0.77908295392990112" blue="0.84943109750747681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -55,7 +88,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6x1-JW-s56">
                                                 <rect key="frame" x="180" y="0.0" width="67" height="67"/>
-                                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="26"/>
+                                                <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="40"/>
                                                 <state key="normal" title="3" backgroundImage="NumRectangle">
                                                     <color key="titleColor" red="0.79216694831848145" green="0.77908295392990112" blue="0.84943109750747681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -70,7 +103,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8d3-sW-1BG">
                                                 <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
-                                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="26"/>
+                                                <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="40"/>
                                                 <state key="normal" title="4" backgroundImage="NumRectangle">
                                                     <color key="titleColor" red="0.79216694831848145" green="0.77908295392990112" blue="0.84943109750747681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -80,7 +113,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t1u-jb-sDy">
                                                 <rect key="frame" x="90" y="0.0" width="67" height="67"/>
-                                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="26"/>
+                                                <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="40"/>
                                                 <state key="normal" title="5" backgroundImage="NumRectangle">
                                                     <color key="titleColor" red="0.79216694831848145" green="0.77908295392990112" blue="0.84943109750747681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -90,7 +123,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sPC-0B-JoO">
                                                 <rect key="frame" x="180" y="0.0" width="67" height="67"/>
-                                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="26"/>
+                                                <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="40"/>
                                                 <state key="normal" title="6" backgroundImage="NumRectangle">
                                                     <color key="titleColor" red="0.79216694831848145" green="0.77908295392990112" blue="0.84943109750747681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -105,7 +138,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XaI-EM-ZZG">
                                                 <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
-                                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="26"/>
+                                                <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="40"/>
                                                 <state key="normal" title="7" backgroundImage="NumRectangle">
                                                     <color key="titleColor" red="0.79216694831848145" green="0.77908295392990112" blue="0.84943109750747681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -115,7 +148,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uIW-ep-Iaa">
                                                 <rect key="frame" x="90" y="0.0" width="67" height="67"/>
-                                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="26"/>
+                                                <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="40"/>
                                                 <state key="normal" title="8" backgroundImage="NumRectangle">
                                                     <color key="titleColor" red="0.79216694831848145" green="0.77908295392990112" blue="0.84943109750747681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -125,7 +158,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J6S-lI-72Y">
                                                 <rect key="frame" x="180" y="0.0" width="67" height="67"/>
-                                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="26"/>
+                                                <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="40"/>
                                                 <state key="normal" title="9" backgroundImage="NumRectangle">
                                                     <color key="titleColor" red="0.79216694831848145" green="0.77908295392990112" blue="0.84943109750747681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -142,7 +175,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l8e-0J-Oae">
                                         <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
-                                        <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="25"/>
+                                        <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="40"/>
                                         <state key="normal" title="0" backgroundImage="NumRectangle">
                                             <color key="titleColor" red="0.79216694831848145" green="0.77908295392990112" blue="0.84943109750747681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -241,13 +274,13 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="AiI-Gf-3ZI"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="42"/>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Bold" family="Source Sans Pro" pointSize="42"/>
                                 <color key="textColor" red="0.79216694831848145" green="0.77908295392990112" blue="0.84943109750747681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ans" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhJ-Sm-lyF">
                                 <rect key="frame" x="20" y="514" width="560" height="40"/>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="29"/>
+                                <fontDescription key="fontDescription" name="SourceSansPro-SemiboldIt" family="Source Sans Pro" pointSize="29"/>
                                 <color key="textColor" red="0.79216694831848145" green="0.77908295392990112" blue="0.84943109750747681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -378,7 +411,7 @@
                         <sections>
                             <tableViewSection id="fbO-hZ-zr4">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="370" id="hgH-a5-fMI">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="370" id="hgH-a5-fMI">
                                         <rect key="frame" x="0.0" y="64" width="600" height="370"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hgH-a5-fMI" id="2c6-fk-wml">
@@ -390,20 +423,20 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="94" id="iOl-rF-FOd"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="18"/>
                                                     <color key="textColor" red="0.95281749963760376" green="0.98021107912063599" blue="0.7379225492477417" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0hC-ws-ZkE">
                                                     <rect key="frame" x="7" y="175" width="585" height="165"/>
                                                     <string key="text">You must separate ones, tens, hundreds, and thousands as separate items. That means that 99 is XCIX, 90 + 9, but never should be written as IC. Similarly, 999 cannot be IM and 1999 cannot be MIM.</string>
-                                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="18"/>
                                                     <color key="textColor" red="0.95281749963760376" green="0.98021107912063599" blue="0.7379225492477417" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0rN-mX-QQP">
-                                                    <rect key="frame" x="281.5" y="23" width="36" height="17"/>
-                                                    <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="17"/>
+                                                    <rect key="frame" x="283" y="14.5" width="34" height="25.5"/>
+                                                    <fontDescription key="fontDescription" name="SourceSansPro-Semibold" family="Source Sans Pro" pointSize="20"/>
                                                     <color key="textColor" red="0.95281749963760376" green="0.98021107912063599" blue="0.7379225492477417" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -412,7 +445,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="76.5" id="yTV-S3-hN2"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="18"/>
                                                     <color key="textColor" red="0.95281749963760376" green="0.98021107912063599" blue="0.7379225492477417" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -434,7 +467,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.6389656662940979" green="0.67913568019866943" blue="0.30072605609893799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="160" id="Uhk-vJ-uXl">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="160" id="Uhk-vJ-uXl">
                                         <rect key="frame" x="0.0" y="434" width="600" height="160"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Uhk-vJ-uXl" id="rBA-GH-JbL">
@@ -442,17 +475,17 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Decimal to Roman Numeral" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dkV-1b-DmS">
-                                                    <rect key="frame" x="175.5" y="22" width="249.5" height="21"/>
+                                                    <rect key="frame" x="182.5" y="22" width="235.5" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="MHJ-SX-In3"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="SourceSansPro-Semibold" family="Source Sans Pro" pointSize="20"/>
                                                     <color key="textColor" red="0.78311073780059814" green="0.67843419313430786" blue="0.77862322330474854" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Use the on screen keypad to enter the number you wish to convert from Decimal to Roman Numerals" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WoD-rQ-sFj">
                                                     <rect key="frame" x="58" y="46" width="485" height="94"/>
-                                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="18"/>
                                                     <color key="textColor" red="0.78311073780059814" green="0.67843419313430786" blue="0.77862322330474854" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -468,7 +501,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.41399908065795898" green="0.21892201900482178" blue="0.45910567045211792" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="160" id="Nz2-9J-4Sd">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="160" id="Nz2-9J-4Sd">
                                         <rect key="frame" x="0.0" y="594" width="600" height="160"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Nz2-9J-4Sd" id="H7S-XF-alt">
@@ -477,16 +510,16 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Use the on screen keypad to enter your Roman Numerals, from largest to smallest number first." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ww-SM-EBm">
                                                     <rect key="frame" x="46" y="48" width="509" height="97.5"/>
-                                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="18"/>
                                                     <color key="textColor" red="0.93802005052566528" green="0.71589219570159912" blue="0.7554783821105957" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Roman Numeral to Decimal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MSW-9K-UsZ">
-                                                    <rect key="frame" x="175.5" y="26" width="249.5" height="21"/>
+                                                    <rect key="frame" x="182.5" y="26" width="235.5" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="0zs-mT-cSq"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="SourceSansPro-Semibold" family="Source Sans Pro" pointSize="20"/>
                                                     <color key="textColor" red="0.93802005052566528" green="0.71589219570159912" blue="0.7554783821105957" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -502,7 +535,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.40858998894691467" green="0.081073381006717682" blue="0.13592368364334106" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="185" id="WVy-Ry-4Zo">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="185" id="WVy-Ry-4Zo">
                                         <rect key="frame" x="0.0" y="754" width="600" height="185"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WVy-Ry-4Zo" id="sFj-QE-Sjo">
@@ -510,17 +543,17 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BIZ-wz-wqK">
-                                                    <rect key="frame" x="272.5" y="22" width="56" height="21"/>
+                                                    <rect key="frame" x="275.5" y="22" width="50" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="qfg-zZ-c1F"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="SourceSansPro-SemiboldIt" family="Source Sans Pro" pointSize="20"/>
                                                     <color key="textColor" red="0.65522760152816772" green="0.62062150239944458" blue="0.74379938840866089" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Written and Designed by Nasser Eledroos. Released under the MIT License, 2016." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rz8-rr-jc5">
                                                     <rect key="frame" x="8" y="33" width="584" height="120"/>
-                                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="SourceSansPro-It" family="Source Sans Pro" pointSize="18"/>
                                                     <color key="textColor" red="0.65522760152816772" green="0.62062150239944458" blue="0.74379938840866089" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -535,6 +568,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.41171544790267944" green="0.37958303093910217" blue="0.57842564582824707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>

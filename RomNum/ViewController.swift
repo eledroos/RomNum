@@ -85,8 +85,8 @@ class ViewController: UIViewController {
             self.xClear.fadeOut()
 
             let buttonImages = [("EqualsButtonRed.PDF", equalButton),
-                          ("LeftButtonRed.PDF", infoButton),
-                          ("RightButtonRed.PDF", changeStateButton)]
+                                ("LeftButtonRed.PDF", infoButton),
+                                ("RightButtonRed.PDF", changeStateButton)]
             
             for (names, components) in buttonImages {
                 if let image = UIImage(named: names) {
@@ -164,9 +164,7 @@ class ViewController: UIViewController {
     }
     
     
-    
-    
-    // MARK: - Naviation Methods
+    // MARK: - Naviation Method(s)
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let backItem = UIBarButtonItem()
         backItem.title = ""
@@ -174,6 +172,7 @@ class ViewController: UIViewController {
     }
     
 }
+
 
 //MARK: 0-9 buttons
 extension ViewController {
